@@ -22,7 +22,7 @@ channels, other users' messages get deleted and the user gets a message from the
 
 ## Run the bot
 
-1. Install the bot using `pip` (`pip install git+https://github.com/pR0Ps/slack-read-only-bot`)
+1. Install the bot using `pip` (`pip install slack-read-only-bot`)
 2. Create a config file based on the following example:
 ```
 app_token: xoxp-...
