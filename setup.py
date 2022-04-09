@@ -16,7 +16,7 @@ setup(
     ],
     install_requires = [
         "slackclient>=1.1.0,<2.0.0",
-        "pyyaml>=5.4.1,<6.0.0",
+        "pyyaml>=5.4.1,<7.0.0",
     ],
     py_modules=["slack_read_only_bot"],
     entry_points={"console_scripts": ["slack-read-only-bot=slack_read_only_bot:main"]},
