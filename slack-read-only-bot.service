@@ -1,0 +1,14 @@
+[Unit]
+Description=A Slack bot that makes channels read-only
+After=network.target
+
+[Service]
+Type=simple
+User=<user to run service as>
+ExecStart=/path/to/slack-read-only-bot --config <path to config>
+
+# Disconnects can happen - restart if it fails
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target

@@ -37,7 +37,8 @@ channels:
 ```
 4. Run `slack-read-only-bot --config <path to file>` to run the bot and test that it works as expected.
 5. [optional] Configure your system to run `slack-read-only-bot` as a service using something like
-   `systemd` to ensure that it runs at startup, restarts if it crashes, etc.
+   `systemd` to ensure that it runs at startup, restarts if it crashes, etc. See
+   [slack-read-only-bot.service](./slack-read-only-bot.service) for an example/template.
 
 # Credits
 
