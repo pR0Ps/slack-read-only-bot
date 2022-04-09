@@ -31,7 +31,7 @@ class ReadOnlyBot:
         # Log in and check the tokens worked (note that this doesn't mean they
         # have the required scopes)
         self.slack_bot = SlackClient(bot_token)
-        if not self.slack_bot.rtm_connect():
+        if not self.slack_bot.rtm_connect(with_team_state=False):
             raise Exception("Bot RTM connection failed. Invalid Slack bot token?")
 
         self.slack_app = SlackClient(app_token)
