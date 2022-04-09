@@ -14,7 +14,7 @@ except Exception:
 
 setup(
     name="slack-read-only-bot",
-    version="0.0.1",
+    version="1.0.0",
     description="Make Slack channels read-only by restricting which users can post to them",
     long_description=long_description,
     long_description_content_type="text/markdown",
