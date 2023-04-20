@@ -40,6 +40,10 @@ channels:
    `systemd` to ensure that it runs at startup, restarts if it crashes, etc. See
    [slack-read-only-bot.service](./slack-read-only-bot.service) for an example/template.
 
+## Docker / EasyPanel
+
+Make sure you map the config file from your host instance to /usr/src/app/config.yml
+
 # Credits
 
 Based on https://github.com/rokcarl/slack-read-only-bot
